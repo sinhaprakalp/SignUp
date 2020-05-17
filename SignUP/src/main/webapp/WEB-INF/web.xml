@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd"  >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SaveSignUpServlet</servlet-name>
+  	<display-name>SaveSignUpServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.SaveSignUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>loginservlet</servlet-name>
+  	<display-name>loginservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.loginservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HrLoginServlet</servlet-name>
+  	<display-name>HrLoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.HrLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminLoginServlet</servlet-name>
+  	<display-name>AdminLoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.AdminLoginServlet</servlet-class>
+  </servlet>
+   <servlet>
+  	<servlet-name>downloadresumeservlet</servlet-name>
+  	<display-name>downloadresumeservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.downloadresumeservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SaveSignUpServlet</servlet-name>
+  	<url-pattern>/SaveSignUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>loginservlet</servlet-name>
+  	<url-pattern>/loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HrLoginServlet</servlet-name>
+  	<url-pattern>/HrLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminLoginServlet</servlet-name>
+  	<url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>downloadresumeservlet</servlet-name>
+  	<url-pattern>/downloadresumeservlet</url-pattern>
+  </servlet-mapping>
+</web-app>
